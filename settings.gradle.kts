@@ -20,4 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Kernel AI"
-include(":app")
+include(":contextkernel")
+include(":sampleapp")
