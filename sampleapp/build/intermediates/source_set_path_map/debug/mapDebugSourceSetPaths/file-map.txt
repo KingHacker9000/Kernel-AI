@@ -1,7 +1,0 @@
-com.ash.sampleapp-pngs-0 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/build/generated/res/pngs/debug
-com.ash.sampleapp-resValues-1 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/build/generated/res/resValues/debug
-com.ash.sampleapp-packageDebugResources-2 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.ash.sampleapp-packageDebugResources-3 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.ash.sampleapp-debug-4 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/build/intermediates/merged_res/debug/mergeDebugResources
-com.ash.sampleapp-debug-5 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/src/debug/res
-com.ash.sampleapp-main-6 /mnt/c/Dev/Projects/Kernal-AI/sampleapp/src/main/res
