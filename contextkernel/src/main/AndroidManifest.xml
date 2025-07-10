@@ -16,4 +16,5 @@
         <action android:name="com.myco.KERNEL" />
       </intent-filter>
     </service>
+
 </manifest>

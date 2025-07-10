@@ -1,3 +1,23 @@
+# Gradle build output (anywhere)
+.gradle/          # Gradle’s own cache
+build/            # any directory named “build”
+**/build/         # (optional; Git’s own “build/” covers this)
+
+# Native/NDK
+.cxx/
+.externalNativeBuild/
+
+# IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+
+# Local config
+local.properties
 *.iml
 .gradle
 /local.properties
@@ -13,3 +33,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+*/build
