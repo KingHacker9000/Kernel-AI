@@ -1,7 +1,0 @@
-1<?xml version="1.0" encoding="utf-8"?>
-2<!-- keep only the manifest tag and the XML namespace -->
-3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-4    package="com.ash.contextkernel" > <!-- we’ll add <application> later if we need it -->
-5    <uses-sdk android:minSdkVersion="34" />
-6
-7</manifest>
