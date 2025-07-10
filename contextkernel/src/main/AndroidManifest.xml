@@ -2,4 +2,18 @@
 <!-- keep only the manifest tag and the XML namespace -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- we’ll add <application> later if we need it -->
+
+    <permission
+        android:name="com.myco.permission.AI_BIND"
+        android:protectionLevel="signature" />
+
+    <service
+        android:name="com.myco.kernel.ContextKernelService"
+        android:exported="true"
+        android:process=":kernel"
+        android:permission="com.myco.permission.AI_BIND">
+      <intent-filter>
+        <action android:name="com.myco.KERNEL" />
+      </intent-filter>
+    </service>
 </manifest>
