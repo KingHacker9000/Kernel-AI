@@ -11,6 +11,12 @@ android {
         minSdk = 34
         targetSdk = 35
     }
+
+    sourceSets {
+        getByName("main") {
+            aidl.srcDirs("src/main/aidl")
+        }
+    }
 }
 
 dependencies {
